@@ -58,7 +58,7 @@ jobs:
               mkdir final
               zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
-       - name: Upload GSI to BitSend
+       - name: Upload GSI to GoFile
          run: |
               curl -sL https://git.io/file-transfer | sh
               ./transfer gof final/GSI.zip
