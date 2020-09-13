@@ -1,4 +1,4 @@
-name: Auto_Build_ErfanGSIs
+name: Build_ErfanGSIs
 
 on:
 #  release:
