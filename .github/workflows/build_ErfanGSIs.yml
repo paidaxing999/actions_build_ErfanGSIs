@@ -60,5 +60,5 @@ jobs:
        
        - name: Upload GSI to BitSend
          run: |
-              curl -sL https://git.io/file-transfer | sh Aonly
+              curl -sL https://git.io/file-transfer | sh 
               ./transfer wet final/GSI.zip
